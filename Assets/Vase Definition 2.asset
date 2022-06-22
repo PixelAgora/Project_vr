@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 041c42a5a75572f43b031814a2714aff, type: 3}
+  m_Name: Vase Definition 2
+  m_EditorClassIdentifier: 
+  type: 1
+  prefab: {fileID: 919132149155446097, guid: 62ec29dbbbe5d364da8a8fd36dd4e818, type: 3}
