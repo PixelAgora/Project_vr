@@ -135,9 +135,10 @@ GameObject:
   - component: {fileID: 90892464}
   - component: {fileID: 90892463}
   - component: {fileID: 90892462}
+  - component: {fileID: 90892466}
   m_Layer: 0
   m_Name: Making Station
-  m_TagString: Untagged
+  m_TagString: Check
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -220,6 +221,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &90892466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90892461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b69d4a2e26e27468a77b7f3eb3aad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &125245231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_Name
+      value: XR Device Simulator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
 --- !u!1001 &138863032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -306,6 +388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wazon1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84c23c5d29f561748bfca9b0889dc0e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: VaseTag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84c23c5d29f561748bfca9b0889dc0e3, type: 3}
@@ -1592,7 +1679,7 @@ GameObject:
   - component: {fileID: 1227547204}
   - component: {fileID: 1227547203}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: Vase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2403,7 +2490,7 @@ GameObject:
   - component: {fileID: 1422367367}
   - component: {fileID: 1422367366}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Current Order
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2634,7 +2721,7 @@ GameObject:
   - component: {fileID: 1792255443}
   - component: {fileID: 1792255442}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2844,6 +2931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: wazon2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62ec29dbbbe5d364da8a8fd36dd4e818,
+        type: 3}
+      propertyPath: m_TagString
+      value: VaseTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ec29dbbbe5d364da8a8fd36dd4e818, type: 3}
 --- !u!1 &1800260703
@@ -3049,6 +3141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wazon3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af3b5134c8e286e4bbabc0a80e9e4c8d,
+        type: 3}
+      propertyPath: m_TagString
+      value: VaseTag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af3b5134c8e286e4bbabc0a80e9e4c8d, type: 3}

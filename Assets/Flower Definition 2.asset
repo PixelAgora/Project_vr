@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   prefab: {fileID: 919132149155446097, guid: a9658a71badae8245983a060adaf473f, type: 3}
+  flowername: pink flower

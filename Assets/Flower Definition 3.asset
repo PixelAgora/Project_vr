@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   prefab: {fileID: 919132149155446097, guid: ee934ae93a4b7c4468393af6fff1965e, type: 3}
+  flowername: white flower

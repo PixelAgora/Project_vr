@@ -7,5 +7,5 @@ public class VaseDefinition : ScriptableObject
 {
   public VaseType type;
   public GameObject prefab;
-  public Image image;
+  public string flowername;
 }
