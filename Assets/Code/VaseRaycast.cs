@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*using System.Collections;
+=======
+using System.Collections;
+>>>>>>> 19c80bc... ja nie wiem napraw Piotrek
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -32,4 +36,8 @@ public class VaseRaycast : MonoBehaviour
             Debug.Log("Did not Hit");
         }
     }
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> 19c80bc... ja nie wiem napraw Piotrek
