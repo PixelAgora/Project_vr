@@ -29,10 +29,6 @@ Other scri[ts
 6,9]
 
     */
-    public bool IsVaseOnMakingStation;
-    public bool IsThereaFlower;
-    
-    
     
     void Start()
     {
@@ -42,7 +38,6 @@ Other scri[ts
     {
          if (other.CompareTag("VaseTag"))
             { 
-                IsVaseOnMakingStation = true;
                 Debug.Log("True");
             }
     }
